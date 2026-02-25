@@ -129,6 +129,7 @@ Danach die Datei pycupra_credentials.json nach ./pycupra/example kopieren.
 ## 5. Daten abrufen
 
 ```
+cd ~
 cd pycupra
 cd example
 ```
@@ -136,7 +137,7 @@ und die Datei mit Python ausführen:
 ```
 python PyCupra.py
 ```
-Das Script solte nun laufen und den Server nach allen möglichen Werten abfragen.
+Das Script sollte nun laufen und den Server nach allen möglichen Werten abfragen.
 
 Alle Werte und Zustände werden in der Datei pycupra_all_attributtes.txt gespeichert,
 und können somit weiterverarbeitet werden.
