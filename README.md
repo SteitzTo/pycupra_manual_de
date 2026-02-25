@@ -166,23 +166,3 @@ ersetze durch:
 #     print('#      Initialisation of firebase      #')
 #     print(txt.center(40, '#'))
 #     print(f"New status of firebase={newStatus}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
