@@ -1,6 +1,6 @@
 # Anleitung für pycupra
 
-Vollständige Installation von pycupra von [WulfgarW](https://github.com/WulfgarW/pycupra) um Cupra/Seat Fahrzeuge abfragen.
+Vollständige Installation von pycupra von [WulfgarW](https://github.com/WulfgarW/pycupra) um Cupra/Seat Fahrzeuge ab zu fragen.
 
 Kann auf einem Raspi oder Debian System genutzt werden.
 
