@@ -7,7 +7,7 @@ Kann auf einem Raspi oder Debian System genutzt werden.
 ## 1. Abhängigkeiten:
 Python 3.12.0<br>
 uv für die Abhängigkeiten zu installieren<br>
-pycupra library von [WulfgarW](https://github.com/WulfgarW/pycupra)<br>
+pycupra library (v0.2.16) von [WulfgarW](https://github.com/WulfgarW/pycupra)<br>
 
 ## 2. Installation von Python 3.12.0
 
@@ -108,6 +108,8 @@ nano pycupra_credentials.json
  "password": "your_password_for_MyCupra_or_MySeat",
  "spin": "1234",
  "brand": "cupra",
+ "usePushNotifications": false,
+ "useEudaFiles": false,
  "apiKey": "a_valid_API_key_for_the_maps.googleapis.com",
  "csvFileName":  "c:/users/myusername/Documents/drivingData.csv",
  "_comment": "Delete the line apiKey from your credentials file if you don't have a valid apiKey."
@@ -119,6 +121,8 @@ username: Hier die E-Mail-Adresse eintragen welches ihr in der Cupra/Seat App be
 password: Das Passwort dazu.<br>
 spin: Hier die 4-stellige S-PIN eintragen, welches ihr für das Fahrzeug festgelegt habt.<br>
 brand: Hier den Fahrzeughersteller eintragen, cupra oder seat.<br>
+usePushNotifications: Wenn ihr die Pushnachrichten ausschalten wollt.<br>
+useEudaFile": Wenn ihr die Eudafiles ausschalten wollt.<br>
 apiKey: Hier einen API-Key von Google Maps eintragen um dieses Feature zu nutzen. Falls man keinen Key hat, diese Zeile bitte löschen.<br> 
 csvFileName: Hier den Pfad eintragen, wo die ExelTabelle mit den Kraftstoffverbräuchen angelegt werden soll. <br>
 <br>
