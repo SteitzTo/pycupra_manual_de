@@ -122,7 +122,7 @@ password: Das Passwort dazu.<br>
 spin: Hier die 4-stellige S-PIN eintragen, welches ihr für das Fahrzeug festgelegt habt.<br>
 brand: Hier den Fahrzeughersteller eintragen, cupra oder seat.<br>
 usePushNotifications: Wenn ihr die Pushnachrichten ausschalten wollt.<br>
-useEudaFile": Wenn ihr die Eudafiles ausschalten wollt.<br>
+useEudaFile: Wenn ihr die Abfrage an das EUDA Portal ausschalten wollt.<br>
 apiKey: Hier einen API-Key von Google Maps eintragen um dieses Feature zu nutzen. Falls man keinen Key hat, diese Zeile bitte löschen.<br> 
 csvFileName: Hier den Pfad eintragen, wo die ExelTabelle mit den Kraftstoffverbräuchen angelegt werden soll. <br>
 <br>
