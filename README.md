@@ -79,19 +79,25 @@ um die Abhängigkeiten des pycupra Packetes zu installieren.
 ### 3.2 Erstellen einer virtuellen Umgebung mit dem Namen pycupra_env im pycupra Verzeichnis
 ```
 cd pycupra
-python3.12 -m venv pycupra_env
+python3.12 -m venv venv
 ```
 Aktiviere die Python 3.12.0 Umgebung
 ```
-source pycupra_env/bin/activate
+source venv/bin/activate
 ```
-Die Umgebung ist aktiviert wenn, am Zeilenanfang im Terminal (pycupra_env) steht.
+Die Umgebung ist aktiviert wenn, am Zeilenanfang im Terminal (venv) steht.
 
 Überprüfe die Version mit
 ```
 python --version
 ```
 Wenn jetzt die Anzeige "Python 3.12.0" erschienen ist, ist bis hierhin alles richtig installiert.
+
+Nun die Abhängikeiten mit installieren mit:
+
+```
+pip install .
+```
 
 
 
